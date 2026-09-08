@@ -17,9 +17,8 @@ class MyApp extends StatelessWidget {
   }
 }
 
-// ======================================================
 // GETTING STARTED PAGE
-// ======================================================
+
 
 class GettingStartedPage extends StatelessWidget {
   const GettingStartedPage({super.key});
@@ -146,9 +145,7 @@ class GettingStartedPage extends StatelessWidget {
   }
 }
 
-// ======================================================
 // LOGIN PAGE
-// ======================================================
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
@@ -291,6 +288,8 @@ class _LoginPageState extends State<LoginPage> {
     );
   }
 }
+
+//Create Account
 
 class CreateAccountPage extends StatefulWidget {
   const CreateAccountPage({super.key});
